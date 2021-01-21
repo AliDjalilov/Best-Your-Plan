@@ -1,0 +1,22 @@
+
+@mixin media-breakpoint-up($breakpoint){
+	$bp: map-get($breakpoints, $breakpoint);
+	@media screen and (min-width: $bp){
+		@content;
+	}
+}
+.title{
+  font-size: 14px;
+  @include media-breakpoint-up (xs){
+		font-size: 26px;
+	}
+	@include media-breakpoint-up (sm){
+		font-size:30px;
+  }
+  @include media-breakpoint-up (md){
+		font-size: 40px;
+  }
+  @include media-breakpoint-up (lg){
+		font-size: 46px;
+	}
+}
