@@ -1,0 +1,162 @@
+.flash-offers__hotel {
+  font-size: 10px;
+  line-height: 13px;
+}
+.stars {
+  display: flex;
+}
+.icon-star {
+  color: #f2994a; ;
+}
+.gran-hotel {
+  display: flex;
+}
+  .btn-user{
+  background: $primary-color;
+  border-radius: 4px;
+  padding: 8px 6px;
+  border: none;
+  min-width: 55px;
+  min-height: 45px;
+  text-align: center;
+  bottom: 50px;
+  }
+.btn-user:hover{
+  border: 1px solid rgb(137, 0, 155);
+  padding: 7px 6px;
+}
+  .btn-user:focus{
+  color: rgb(58, 5, 5);
+  }
+  .btn-user__number{
+    color: black;
+  }
+
+  .btn-user:active{
+  border: 1px solid rgb(88, 2, 105);
+  padding: 7px 6px;
+  background: #fd6783;
+  .btn-user__user{
+    color: white;
+    }
+  .btn-user__number{
+  color: white;
+  }
+}
+  .btn-user__user{
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  color: white;
+  padding-bottom: 3px;
+  }
+  .btn-user__number{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  }
+.hilton__grand {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+.flash-offer__link {
+  margin-top: 4px;
+  margin-left: 14px;
+  background: #ec1f46;
+  border-radius: 3px;
+  padding: 6px 10px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+}
+.half-board__free {
+  font-size: 12px;
+  line-height: 15px;
+  padding: 4px;
+}
+.big-photo {
+  background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%) url(hilton-hotel_lg_1x.webp);
+  border-radius: 8px;
+}
+.prices {
+  font-size: 10px;
+  line-height: 13px;
+  padding-top: 16px;
+  background-color: #0a223d;
+  widows: 350px;
+  height: 210px;
+  margin-bottom : 26px;
+  border-radius: 8px;
+}
+.map {
+  width: 347px;
+  height: 213px;
+  border-radius: 10px;
+}
+.main-btn {
+  display: inline-block;
+  border: none;
+  background:#EC1F46;
+  border-radius: 4px; 
+  color: #ffffff;
+  padding: 14px 84px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 30px;
+}
+.text-row__col {
+  color: #ffffff;
+  padding-left: 28px;
+}
+.text-row__col__2 {
+  color: #ffffff;
+  display: flex;
+  padding-right: 34px;
+}
+.text-row {
+  display: flex;
+  justify-content: space-between;
+}
+.price__col {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  padding-top: 0;
+}
+.price-col__pre {
+  font-size: 12px;
+  line-height: 16px;
+}
+.quick {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 10px;
+}
+.icon-user {
+  padding-right: 12px;
+}
+.price-guests {
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 2px;
+  margin-top: -3px;
+}
+.icon-home {
+padding-right: 14px;
+}
+.icon-phone-first {
+    padding-right: 16px;
+}
+.price-nmb {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.user {
+  margin-top: 8px;
+}
